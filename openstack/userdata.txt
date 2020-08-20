@@ -1,0 +1,7 @@
+#cloud-config
+ssh_pwauth: True
+password: r00tme
+chpasswd:
+  list: |
+    root:r00tme
+  expire: False
