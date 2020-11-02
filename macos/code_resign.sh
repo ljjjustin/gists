@@ -7,5 +7,5 @@ fi
 
 app_dir=$1
 
-xattr -cr ${app_dir}
-sudo codesign --force --deep --sign - ${app_dir}
+xattr -cr "${app_dir}"
+sudo codesign --force --deep --sign - "${app_dir}"
